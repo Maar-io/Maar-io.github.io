@@ -238,7 +238,8 @@
                                     alt="" />
                                 <!-- Portfolio Modal - Text-->
                                 <p class="mb-5">Participated on the Polkadot/W3F hackathon and won the extra price for
-                                    solving 19 challenges (in 30 days). Only 41 out of 1000+ participants applied for the extra price. Challenges included:</p>
+                                    solving 19 challenges (in 30 days). Only 41 out of 1000+ participants applied for
+                                    the extra price. Challenges included:</p>
                                 <ul>
                                     <li>Basic setup of a Substrate node</li>
                                     <li>Running the full Kusama node</li>
@@ -268,13 +269,13 @@
                 <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true"><i class="fas fa-times"></i></span>
                 </button>
-                <div class="modal-body text-center">
+                <div class="modal-body text-left">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
                                 <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"
-                                    id="portfolioModal2Label">Tasty Cake</h2>
+                                    id="portfolioModal2Label">Polkadot Github Explorer</h2>
                                 <!-- Icon Divider-->
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
@@ -284,13 +285,23 @@
                                 <!-- Portfolio Modal - Image-->
                                 <img class="img-fluid rounded mb-5" src="assets/img/portfolio/dotctor2p.png" alt="" />
                                 <!-- Portfolio Modal - Text-->
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque
-                                    assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
-                                    velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                                <p class="mb-5">I made a simple app Dotctor, to explore Polkadot related projects on the
+                                    Github. It searches Github's topic combinations like substrate+wallet.
+                                    You need to log-in to the Github for this app to work. It uses Github GraphQl to
+                                    search for the given topic combination. The default is polkadot+blockchain.
+                                    You can of course use Github to do topic search but I'm not aware you can do it for
+                                    the combination of the topics. I did a bit of investigation and I think majority of
+                                    the substrate based projects are captured.
+                                    That been said, unfortunately, not all projects use topics to describe itself, and
+                                    those projects will be omitted.
+                                    <li>ReactJs with react-bootstrap</li>
+                                    <li>GraphQl with Apollo client</li>
+                                    <li>Firebase Authentication with Github as OAuth identity provider</li>
+                                    <li>Hosted by Firebase</li>
                                 </p>
-                                <button class="btn btn-primary" data-dismiss="modal">
-                                    <i class="fas fa-times fa-fw"></i>
-                                    Close Window
+                                <button onclick="location.href='https://dotctor-66a97.web.app/'" class="btn btn-primary"
+                                    data-dismiss="modal">
+                                    Dotctor
                                 </button>
                             </div>
                         </div>
